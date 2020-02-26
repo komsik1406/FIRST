@@ -1,0 +1,3 @@
+git config  = список команд Гита
+git config --global = глобальные конфигурации
+git help (command) = описание команды или git (command) --help
