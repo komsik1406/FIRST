@@ -1,3 +1,26 @@
 git config  = список команд √ита
 git config --global = глобальные конфигурации
 git help (command) = описание команды или git (command) --help
+
+
+когда создал новый репозиторий на GIThub
+
+
+Еor create a new repository on the command line
+echo "# FIRST" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/komsik1406/FIRST.git
+git push -u origin master
+Еor push an existing repository from the command line
+git remote add origin https://github.com/komsik1406/FIRST.git
+git push -u origin master
+Еor import code from another repository
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+
+
+git clone = перед ссылкой на репозиторий
+git rm --cached (file name) = удаление файла из git (перевод в статус untracked)
+git commit -a = (-a) индексаци€ файлов
+git log = истор€ коммитов клонированного репозитори€(можно делать поиск и выборки)
